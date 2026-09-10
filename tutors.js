@@ -7,7 +7,7 @@
 
 const TABLE = 'Tutors';
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   const baseId = process.env.AIRTABLE_BASE_ID;
   const token = process.env.AIRTABLE_PAT;
 
@@ -77,4 +77,4 @@ export default async function handler(req, res) {
 
   res.setHeader('Allow', ['GET', 'POST']);
   return res.status(405).end('Method Not Allowed');
-}
+};
