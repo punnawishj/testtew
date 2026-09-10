@@ -1,0 +1,7 @@
+{
+  "name": "tewtrongjai-site",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
