@@ -1,0 +1,7 @@
+{
+  "name": "chula-tutor-hub",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
